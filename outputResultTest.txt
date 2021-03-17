@@ -1,0 +1,27 @@
+ Running tests in:
+ - Chrome 89.0.4389.90 / Windows 10
+
+ Testing checkout
+ √ User continue with missing information
+ √ User navigates to the overview page once his data has been filled
+ √ Validate items in the overview page match with the added items
+ √ User completes a purchase
+
+ Login feature testing
+ √ TC1 using roles
+ - TC2 using roles
+ - Using two differents roles
+
+ Testing different functionalities once you had login
+ √ User can logout
+ √ User can navigate to the shopping cart
+ √ User can add a single item to the shopping cart
+ √ User can add multiple items to the shopping cart
+
+ Login feature testing
+ √ User can login using valid credentials
+ √ User can not login using invalid credentials
+
+
+ 11 passed (33s)
+ 2 skipped

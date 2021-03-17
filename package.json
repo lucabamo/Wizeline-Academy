@@ -1,0 +1,18 @@
+{
+  "name": "assessment1",
+  "version": "1.0.0",
+  "description": "Assessment for the wizeline academy using testcafe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-all-chrome-report": "testcafe chrome ./page_model/tests --reporter spec:outputResultTest.txt",
+    "test-all-chrome": "testcafe chrome ./page_model/tests",
+    "test-all-opera": "testcafe opera ./page_model/tests",
+    "test-all-firefox": "testcafe firefox ./page_model/tests",
+    "test-all-edge": "testcafe edge ./page_model/tests",
+    "test-all-explorer": "testcafe ie ./page_model/tests",
+    "test-all-all-browsers": "testcafe all ./page_model/tests"
+  },
+  "author": "Luca Bacasehua",
+  "license": "ISC"
+}
